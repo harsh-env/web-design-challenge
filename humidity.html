@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Temperature</title>
+  <title>Humidity</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -44,29 +44,32 @@
             </div>
         </div>
     </nav>
-    <!--temprature content adjustments-->
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
                 <div class="col-md-12">
-                    <h3>Max Temperature</h3>
+                    <h3>Humidity</h3>
                     <hr>
-                    <img src="assets/images/Fig1.png" width="75%" alt="temperature">
-                    <p>As expected, the weather becomes significantaly warmer as one approaches the equator (Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+                    
+                    <img src="assets/images/Fig2.png" width="75%" alt="humidity">
+                    <br>
+                    <p>Humidity vs latitude plot is not showing any trends. Humidity appears to be mostly regular across latitudes, though with an absence of lower humidity values near the equator and Arctic. This makes sense, due to the humidity of tropical climates, and the northern latitudes being on the boundary between winter and spring.  </p>
                 </div>
             </div>
-            <!--visualizations container -->
+<!--visualization part of the page-->            
             <div class="col-md-4">
                 <div class="col-md-12">
                     <h3>Visualizations</h3>
                     <hr>
                     <div class="row">
                         <div class="col-3 col-md-6">
-                            <a href="temp.html"><img class="pic" src="assets/images/Fig1.png" width="100%" alt="temprature"></a>
+                            <a href="temp.html"><img src="assets/images/Fig1.png" width="100%" alt="temprature">
+                            </a>
                         </div>
                         
                         <div class="col-3 col-md-6">
-                            <a href="humidity.html"><img src="assets/images/Fig2.png" width="100%" alt="humidity"></a>
+                            <a href="humidity.html"><img class="pic" src="assets/images/Fig2.png" width="100%" alt="humidity"></a>
                         </div>
                     
                         <div class="col-3 col-md-6">
