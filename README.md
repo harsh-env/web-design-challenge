@@ -22,7 +22,8 @@ Below are snippets of the vis for each link
 ![](https://github.com/harsh-env/web-design-challenge/blob/main/assets/images/Comparison_pg.JPG)
 ![](https://github.com/harsh-env/web-design-challenge/blob/main/assets/images/Data_pg.JPG)
 
-
+# Link to Developed Webpage
+https://github.com/harsh-env/web-design-challenge/settings/pages
 
 
 
